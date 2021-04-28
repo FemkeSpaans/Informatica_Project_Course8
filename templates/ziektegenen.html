@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% block title %} Zoeken naar ziektengenen {% endblock %}
+
+{% block content %}
+    <h1> Vind beschrijvingen van genen op zoekwoord </h1>
+    <form method="post">
+
+    <p>
+        vul ziekte kenmerken in (aan 1 van de kenmerken moet het voldoen):
+        <label for="kenmerken1"><input type="text" name="kenmerken1"> </label>
+    </p>
+
+    <p>
+        vul ziekte kenmerken in (aan alle kenmerken moet het voldoen):
+        <label for="kenmerken2"><input type="text" name="kenmerken2"> </label>
+    </p>
+
+    <p>
+        vul gennamen in welke gezocht moeten worden:
+        <label for="gennamen"><input type="text" name="gennamen"> </label>
+    </p>
+
+    <p>
+        vul publicatie datum in:
+        <label for="datum"><input type="text" name="datum"> </label>
+    </p>
+
+     <p>
+        vul genpanel in (deze worden dan niet getoont):
+        <label for="genpanel"><input type="text" name="genpanel"> </label>
+    </p>
+
+    <p>
+        vul path in voor Excel-bestand:
+        <label for="path"><input type="text" name="path"> </label>
+    </p>
+
+    <p>
+        vul naam voor Excel-bestand in:
+        <label for="exnaam"><input type="text" name="exnaam"> </label>
+    </p>
+
+    <p><button type="submit"> Submit</button></p>
+
+    <hr>
+        <script type="text/javascript">
+
+        </script>
+
+
+
+    </form>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+body {
+	font-family: cursive;
+	color: black;
+	background-color: #ecf2f9;
+}
+
+hr{
+  height: 2px;
+  color: black;
+  background-color: black;
+  border: none;
+}
